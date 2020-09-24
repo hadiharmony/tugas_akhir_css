@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas Akhir CSS - NIOMIC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@500&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="iconpng.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!-- pengaturan top header -->
+    <div class="container-fluid">
+    <div class="jumbotron-fluid">
+  <div class="row">
+    <div class="col-sm">
+      <img src="img/call.png" alt="" width="20px" height="20px">
+    Hubungi : <span class="nomor">081.2590.20.520</span>
+    </div>
+    <div class="col-sm">
+      <img src="img/email.png" alt="" width="20px" height="20px">
+    Email : <span class="nomor"><a href="mailto:hadi.harmony@yahoo.com">hadi.harmony@yahoo.com</a></span>
+    </div>
+    <div class="col-sm">
+      <img src="img/jam.png" alt="" width="20px" height="20px">
+    Buka : <span class="nomor">09:00 - 17:00</span>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="img/harmony.png" alt="" width="100px" height="50px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="produk.html">PRODUK<span class="badge badge-danger">New</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kontak.html">KONTAK</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br>
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <div>
+    <img src="img/best-price.png" alt="" width="10%px" height="10%">
+    <strong>New Price !</strong> Telah terbit pricelist terbaru edisi tahun 2020.
+  <hr>
+  Harap segera hubungi kami untuk informasi terkait skema harga terkini beserta diskon dan berbagai macam keuntungan lainnya. Termasuk diantaranya peluang untuk bisa mendapatkan harga lama dan hanya berlaku untuk 10 customer tercepat.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+</div>
+
+<!-- Slider Element Settings -->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-interval="2000">
+      <img src="img/roller.jpg" class="d-block w-100" alt="Roller Blinds" width="800px" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Roller Blinds</h3>
+        <p>Berbekal ratusan fabric dari berbagai jenis bahan serta fungsinya,Roller Blinds akan mampu dengan sempurna mengakomodasi keinginan Anda</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-interval="4000">
+      <img src="img/vertical4.jpg" class="d-block w-100" alt="Vertical Blinds" width="800px" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Vertical Blinds</h3>
+        <p>Mampu tampil cantik dan anggun di segala jenis ruangan tanpa mengabaikan fungsi dan keindahan</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-interval="6000">
+      <img src="img/roman.jpg" class="d-block w-100" alt="Roman Shade" width="800px" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Roman Shade</h3>
+        <p>Produk ini telah terbukti mampu memenuhi ekspektasi konsumennya. Mempergunakan fabric serta motor berkualitas semakin menambah tingkat kepuasan konsumen.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<section class="section-warp">
+  <div class="jumbotron">
+    <h2 align="center" >MENGAPA HARUS KAMI ?</h2>
+    <hr class="line">
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/proses.png" alt="" class="icon-home">
+        <div class="">
+          <h3 class="text-warning">Proses Cepat</h3>
+          <p text-align:"justify">Pesanan Anda akan siap dalam waktu 2 - 3 hari untuk volume kecil dan 7 - 30 hari untuk volume besar</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/harga.png" alt="" class="icon-home">
+        <div class="">
+          <h3 class="text-warning">Harga Bersaing</h3>
+          <p text-align:"justify">Negosiasikan semua secara santai dan kami siap untuk memberikan harga terbaik.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/garansi.png" alt="" class="icon-home">
+        <div class="">
+          <h3 class="text-warning">Bergaransi</h3>
+          <p text-align:"justify">Singkirkan rasa was-was dan khawatir Anda karena seluruh produk kami tercover garansi selama 1 hingga 3 tahun.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/survei.png" alt="" class="icon-home">
+        <div class="">
+          <h3 class="text-warning">Free Survey Lokasi</h3>
+          <p text-align:"justify">Dapatkan layanan Survei lokasi secara cuma-cuma untuk wilayah kota Surabaya atau berbiaya rendah untuk luar kota Surabaya.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/pasang.png" alt="" class="icon-home">
+        <div class="">
+          <h3 class="text-warning">Free Pemasangan</h3>
+          <p text-align:"justify">Gratis biaya pemasangan untuk sebagian besar varian produk kami dan hanya dengan biaya pemasangan yang rendah untuk beberapa varian yang lain</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/support.png" alt="" class="icon-home">
+        <div class="">
+          <h3 class="text-warning">24/7 Support</h3>
+          <p text-align:"justify">Hubungi kami sepanjang hari...sepanjang tahun dan kami akan selalu siap untuk melayani kebutuhan tirai/korden Anda</p>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <button type="button" class="btn btn-warning btn-lg btn-block"> <a href="kontak.html">DAPATKAN PENAWARAN HARGA TERBAIK DARI KAMI</a> </button>
+    </div>
+</section>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+  </div>
+  <div class="jumbotron-fluid fixed-bottom bg-info text-dark text-center"><p><b>Dapatkan penawaran harga special hanya selama bulan Agustus 2020 !</b></p></div>
+  </body>
+  <footer>
+    <div class="container-fluid">
+      <div class="p-3 mb-2 bg-dark text-white text-center"><b>Harmony Interior Surabaya - Supported by <a href="https://niomic.com">NIOMIC</b></div
+  </footer>
+
+  <br>
+  <br>
+</html>

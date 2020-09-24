@@ -1,0 +1,38 @@
+header {
+  font-family:"Acme", sans-serif;
+}
+  .jumbotron-fluid {
+    width: 100%;
+    height: 50px;
+    background-color: #0d0d0d ;
+    color: #ffcc00;
+    padding: 15px;
+    margin: auto;
+    outline-color: grey;
+  }
+  .nomor {
+    color: white;
+    font-family: "Adobe Gothic Std";
+  }
+  .row {
+    text-align: center;
+  }
+  .icon-home {
+    border-radius: 50px;
+  }
+  .nav-link {
+    padding: 0 15px;
+    margin: 0 10px;
+    font-family: "Adobe Gothic Std";
+  }
+  h3 {
+    font-family: "Adobe Gothic Std";
+    color: orange;
+  }
+  .line {
+    width: 50%;
+  }
+  .imglist:hover {
+    opacity: 0.5;
+  }
+  
